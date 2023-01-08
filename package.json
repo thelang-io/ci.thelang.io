@@ -1,0 +1,27 @@
+{
+  "name": "ci.thelang.io",
+  "version": "1.0.0",
+  "description": "CI server for The Programming Language",
+  "main": "app.js",
+  "private": true,
+  "repository": "github:thelang-io/ci.thelang.io",
+  "author": "Aaron Delasy <aaron@thelang.io>",
+  "homepage": "https://ci.thelang.io",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prepare": "husky install",
+    "start": "node app.js",
+    "test": "standard"
+  }
+}
