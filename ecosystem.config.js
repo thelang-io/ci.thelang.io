@@ -2,6 +2,7 @@ module.exports = {
   apps: [{
     name: 'app',
     script: './app.js',
-    time: true
+    time: true,
+    cwd: __dirname
   }]
 }
