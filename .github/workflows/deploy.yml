@@ -36,7 +36,7 @@ jobs:
           host: ${{ secrets.AWS_EC2_HOST }}
           username: ${{ secrets.AWS_EC2_USERNAME }}
           key: ${{ secrets.AWS_EC2_KEY }}
-          source: "./*"
+          source: "./*,!./.git"
           target: "/app/"
           overwrite: true
       - uses: appleboy/ssh-action@master
