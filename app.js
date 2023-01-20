@@ -10,7 +10,7 @@ const port = process.env.PORT || 8080
 
 app.disable('x-powered-by')
 app.set('trust proxy', true)
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 app.use(routes)
 
 const server = app.listen(port, () => {
