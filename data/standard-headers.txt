@@ -8,6 +8,11 @@ access-control-request-headers
 access-control-request-method
 authorization
 cache-control
+cdn-loop
+cf-connecting-ip
+cf-ipcountry
+cf-ray
+cf-visitor
 connection
 content-encoding
 content-length
@@ -32,6 +37,7 @@ max-forwards
 origin
 pragma
 prefer
+priority
 proxy-authorization
 proxy-connection
 range
