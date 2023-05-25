@@ -2,22 +2,23 @@
   "name": "ci.thelang.io",
   "version": "1.0.0",
   "description": "CI server for The Programming Language",
+  "author": "Aaron Delasy <aaron@thelang.io>",
+  "homepage": "https://ci.thelang.io",
   "main": "app.js",
   "private": true,
   "repository": "github:thelang-io/ci.thelang.io",
-  "author": "Aaron Delasy <aaron@thelang.io>",
-  "homepage": "https://ci.thelang.io",
   "dependencies": {
-    "@octokit/webhooks": "^10.5.0",
-    "body-parser": "^1.20.1",
-    "debug": "^4.3.4",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "helmet": "^6.0.1"
+    "@octokit/webhooks": "^11.0.0",
+    "@sentry/node": "^7.53.1",
+    "body-parser": "^1.20.0",
+    "debug": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "helmet": "^7.0.0"
   },
   "devDependencies": {
-    "husky": "^8.0.3",
-    "nodemon": "^2.0.20",
+    "husky": "^8.0.0",
+    "nodemon": "^2.0.0",
     "standard": "^17.0.0"
   },
   "scripts": {
